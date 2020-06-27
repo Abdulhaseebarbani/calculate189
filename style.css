@@ -1,0 +1,38 @@
+.mine{
+    text-align: center;
+    background-color: black;
+    margin: auto;
+    margin-top: 10%;
+    padding: 50px 0 50px 0;
+    box-shadow: 2px 2px 20px 10px red;    
+    border-radius: 100px;
+    width: 300px !important;
+    
+}
+.mbtn{
+    text-align: center;
+    background-color: black;
+    margin: 5px 4px 4px 5px;
+    border: 1px solid white;
+    padding: 12px;
+    width: 42px;
+    color: whitesmoke;
+    box-shadow: 2px 2px 20px 5px red;
+}
+.inp{
+    width: 50%;
+    padding: 20px;
+    border: white;
+    font-size: 20px;    
+    margin-bottom: 15px;
+    color: white;
+    background-color: gray;
+    text-align: end;
+}
+
+
+  @media only screen and (max-width: 480px) {
+    .mine {
+      width: 80% !important;
+    }
+  }
